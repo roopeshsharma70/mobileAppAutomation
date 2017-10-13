@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.app.test.SignInPageTest">
+        <methods>
+          <include name="eBay_Product_Search_Sort_PDP_Watch_Login_Test"/>
+          <include name="setUp"/>
+          <include name="stopAppium"/>
+        </methods>
+      </class> <!-- com.app.test.SignInPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
