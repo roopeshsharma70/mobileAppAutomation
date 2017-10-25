@@ -2,14 +2,14 @@
 
 Prerequisite for Android/iOS:
 
-Android requirements on Windows and Mac
+<b>Android requirements on Windows and Mac<\b>
 The following are the system requirements for Appium on Android:
 
 Java (version 7 or later)
 Android SDK API (version 17 or later)
 Android Virtual Device (AVD) or real device
 
-iOS requirements
+<b>iOS requirements<\b>
 These are the system requirements for iOS devices to start with Appium:
 
 Mac OS X 10.7 or later
