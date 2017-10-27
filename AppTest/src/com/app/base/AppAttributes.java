@@ -31,7 +31,8 @@ public class AppAttributes {
 		try {
 			String separator = System.getProperty("file.separator");
 			String user_dir = System.getProperty("user.dir");
-			String properties_dir = user_dir + separator + "src" + separator + "com" + separator + "app" + separator
+
+			String properties_dir = user_dir + separator + "src" + separator + "com" + separator +"app"+ separator
 					+ "config" + separator;
 			
 			String fileName = properties_dir + separator + file + ".properties";

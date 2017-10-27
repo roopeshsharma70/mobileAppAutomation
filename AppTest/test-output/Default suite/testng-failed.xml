@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.app.test.SignInPageTest">
+      <class name="com.app.test.SnapdealTest">
         <methods>
-          <include name="eBay_Product_Search_Sort_PDP_Watch_Login_Test"/>
           <include name="setUp"/>
+          <include name="snapdeal_Product_Search_Sort_PDP_Watch_Login_Test"/>
           <include name="stopAppium"/>
         </methods>
-      </class> <!-- com.app.test.SignInPageTest -->
+      </class> <!-- com.app.test.SnapdealTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
