@@ -11,4 +11,4 @@ In test package, we have written the code for test case scenerios.
 
 In utils package, we have written the code for utilities which may be used for reporting or any other purpose.
 
-For setup requirements, [please refer](https://github.com/roopeshsharma70/mobileAppAutomation/wiki).
+For setup requirements, [please refer wiki page.](https://github.com/roopeshsharma70/mobileAppAutomation/wiki).
