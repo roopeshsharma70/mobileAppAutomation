@@ -30,4 +30,13 @@ public class SearchPage {
 		}
 		return flag;
 	}
+	public static WebElement getSnapdealSearchEditBox(WebDriver driver) {
+		return driver.findElement(By.id("com.snapdeal.main:id/search_edit_text"));
+	}
+	public static WebElement denyLocationPopup(WebDriver driver) {
+		return driver.findElement(By.id("com.snapdeal.main:id/negativeBtnView"));
+	}
+	
+	
+
 }

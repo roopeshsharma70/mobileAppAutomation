@@ -48,4 +48,7 @@ public class ProductListingPage {
 		return driver.findElement(By.id("com.ebay.mobile:id/cell_collection_item"));
 	}
 
+	public static WebElement getSnapdealFirstProduct(WebDriver driver) {
+		return driver.findElement(By.id("com.snapdeal.main:id/product_grid_mainLayout"));
+	}
 }

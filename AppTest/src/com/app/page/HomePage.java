@@ -19,4 +19,11 @@ public class HomePage {
 		return driver.findElement(By.id("com.ebay.mobile:id/search_box"));
 	}
 	
+	public static WebElement getSnapdealLogo(WebDriver driver){
+	return driver.findElement(By.className("android.widget.ImageView"));
+}
+	
+	public static WebElement getSnapdealSearchBox(WebDriver driver) {
+		return driver.findElement(By.id("com.snapdeal.main:id/search_text_view"));
+	}
 }

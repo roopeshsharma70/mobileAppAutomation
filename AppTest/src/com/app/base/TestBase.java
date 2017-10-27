@@ -96,7 +96,7 @@ public class TestBase extends AppAttributes{
 	
 	@BeforeSuite(alwaysRun=true)
 	@Parameters({"env"})
-	public void setUp(@Optional("app") String file) throws IOException, InterruptedException{
+	public void setUp(@Optional("snapApp") String file) throws IOException, InterruptedException{
 		try{
 		setConfig(file);
 		driver = initDriver();

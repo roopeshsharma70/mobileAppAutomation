@@ -20,6 +20,7 @@ public class AppAttributes {
 	public static String UDID;
 	public static String APP_PACKAGE;
 	public static String APP_ACTIVITY;
+	public static String SEARCH_KEYWORD;
 	public static String APP;
 
 	/**
@@ -30,7 +31,7 @@ public class AppAttributes {
 		try {
 			String separator = System.getProperty("file.separator");
 			String user_dir = System.getProperty("user.dir");
-			String properties_dir = user_dir + separator + "src" + separator + "com" + separator + "ebay" + separator
+			String properties_dir = user_dir + separator + "src" + separator + "com" + separator + "app" + separator
 					+ "config" + separator;
 			
 			String fileName = properties_dir + separator + file + ".properties";
@@ -46,7 +47,8 @@ public class AppAttributes {
 			UDID = prop.getProperty("udid");
 			APP_PACKAGE = prop.getProperty("appPackage");
 			APP_ACTIVITY = prop.getProperty("appActivity");
-			APP = user_dir + separator + "app" + separator + "eBay.apk";
+			SEARCH_KEYWORD=prop.getProperty("keyword");
+			APP = user_dir + separator + "app" + separator + "Snapdeal-universal-debug.apk";
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {

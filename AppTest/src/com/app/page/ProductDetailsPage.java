@@ -39,5 +39,10 @@ public class ProductDetailsPage {
 	public static WebElement getVariationPageWatchButton(WebDriver driver) {
 		return driver.findElement(By.id("com.ebay.mobile:id/button_watch_buybar"));
 	}
-	
+	public static WebElement getSnapdealPincodePopup(WebDriver driver) {
+		return driver.findElement(By.id("com.snapdeal.main:id/shipnearPincode"));
+	}
+	public static WebElement getSnapdealPincodePopupSubmit(WebDriver driver) {
+		return driver.findElement(By.id("com.snapdeal.main:id/shipnearverifyBtn"));
+	}
 }
