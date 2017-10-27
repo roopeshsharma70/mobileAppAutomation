@@ -10,3 +10,5 @@ In page package, we have written the code for locators of different pages like H
 In test package, we have written the code for test case scenerios.
 
 In utils package, we have written the code for utilities which may be used for reporting or any other purpose.
+
+For setup requirements, [please refer](https://github.com/roopeshsharma70/mobileAppAutomation/wiki).
